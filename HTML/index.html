@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoilo</title>
+    <link rel="stylesheet" href="./../CSS/style.css">
+    <link rel="icon" type="image/png" href="./../imgs/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "dFfS1BOpictUSagBs",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Home page -->
+    <main class="home" id="Home">
+        <!-- slider menu-bar for mobile  -->
+        <aside id="menu-bar">
+            <h3><a href="#">Home</a></h3>
+            <h3><a href="#About">About</a></h3>
+            <h3><a href="#Skills">Skills</a></h3>
+            <h3><a href="#Contact">Contact</a></h3>
+            <h3><a href="#Service">Service</a></h3>
+            <i id="#cross" class="ri-close-line"></i>
+        </aside>
+        <!--fixed header section -->
+        <header class="header-section">
+            <!-- Title -->
+            <h1 class="title">Port<span>folio</span></h1>
+            <!-- nav section -->
+            <nav class="nav-bar">
+                <h3><a href="#" class="active">Home</a></h3>
+                <h3><a href="#About">About</a></h3>
+                <h3><a href="#Skills">Skills</a></h3>
+                <h3><a href="#Contact">Contact</a></h3>
+                <h3><a href="#Service">Service</a></h3>
+                <i id="#menu" class="ri-menu-3-fill"></i>
+            </nav>
+        </header>
+        <!-- Content Section -->
+        <section class="page-1">
+            <!-- left part section -->
+            <div class="left-part">
+                <!-- image section -->
+                <div class="hero">
+                    <!-- image -->
+                    <img src="./../imgs/man_-removebg.png" alt="person photo">
+                    <div class="hero-bottom-bar"></div>
+                </div>
+            </div>
+            <!-- right part section -->
+            <article class="right-part">
+
+                <!-- introdution section-->
+                <div class="introdution">
+                    <h4 class="intro">Hi, It's Me</h4>
+                    <h2>Prateek Kumar S N</h2>
+                    <h4 id="up">And I’m a <span class="role">UI & UX Designer</span></h4>
+                    <br>
+                    <p>
+                        I am very passionate about building both user-friendly interface and robust backend systems
+                        using modern web technologies.
+                    </p>
+                </div>
+                <!-- social media section-->
+                <div class="social-links">
+                    <a class="git" href="https://github.com/precious-venom" target="_blank">
+                        <i class="ri-github-fill"></i> </a>
+                    <a class="linked" href="http://www.linkedin.com/in/prateek-kumar-s-n-624180343" target="_blank">
+                        <i class="ri-linkedin-fill"></i> </a>
+                    <a class="whatsapp" href="http://wa.me/+916361935438" target="_blank">
+                        <i class="ri-whatsapp-line"></i> </a>
+                </div>
+                <!-- buttons section -->
+                <footer class="btns">
+                    <a class="hire-btn" href="#Contact">Hire Me</a>
+                    <a class="resume-btn" href="./../imgs/resume/prateek new resume.pdf" target="_blank">Resume</a>
+                </footer>
+
+            </article>
+        </section>
+    </main>
+
+    <!-- About page -->
+    <main class="about" id="About">
+        <header class="title-section">
+            <h3>About <span>Me</span></h3>
+        </header>
+        <!-- content part -->
+        <section class="container">
+            <!-- page2 left section -->
+            <div class="page2-left">
+                <ul class="paragraph">
+                    <!-- details -->
+                    <li>
+                        <p class="para"> I am a passionate Full Stack Developer Skilled in both
+                            frontend and
+                            backend technologies.
+                            On the frontend, I work with HTML, CSS, JavaScript and React to bulid responsive and
+                            user-friendly
+                            interface. i focus on creating clean, modern UI/UX designs that offer smooth user
+                            experience.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para"> On the backend, I have experience working with java
+                            and i
+                            use
+                            MySQL for database
+                            management. I also have strong knowledge in manual testing and automation testing, which
+                            helps
+                            ensure the quality
+                            and reliablity on my applications.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="para">
+                            With a balanced skill set across development and testing, I aim to bulid web solutions that
+                            are
+                            efficient, scalable,
+                            and easy to use.
+                        </p>
+                    </li>
+                </ul>
+                <!-- social media -->
+                <nav class="social-img">
+                    <a href="#"><img src="./../imgs/indeed.jpeg" alt="indeed"></a>
+                    <a href="https://www.naukri.com/mnjuser/homepage"><img src="./../imgs/Naukri.png" alt="naukri"></a>
+                    <a href="#"><img src="./../imgs/Apana.png" alt="apana"></a>
+                </nav>
+            </div>
+
+            <!-- page2 right section  -->
+            <div class="page2-right">
+                <!-- person image -->
+                <img src="./../imgs/man .jpeg" alt="person">
+            </div>
+        </section>
+    </main>
+
+    <!-- Skills page -->
+    <main class="skills" id="Skills">
+        <!-- title section -->
+        <header class="title-section">
+            <h3><span>My</span> Skills</h3>
+        </header>
+        <!-- content -->
+        <section class="content">
+            <!-- left section -->
+            <article class="page3-left">
+                <!-- details -->
+                <h3><i id="icon" class="bi bi-brush"></i><u>Design + Always Responsive</u></h3>
+                <ul>
+                    <li class="text-line">Skilled in user-centered design, creating responsive interface,
+                        wireframes, and prototyping using tools like Figma, Canva.
+                    </li>
+                </ul>
+
+                <h3><i id="icon" class="bi bi-phone"></i><u>Full-Stack Development</u></h3>
+                <ul>
+                    <li class="text-line">Frontend Development : Proficient int HTML, CSS, JavaScript
+                        and React, ensuring optimized and responsive web applications.
+                    </li>
+                    <br>
+                    <li class="text-line">Backend Development : Experience in server-side technologies like
+                        Java,
+                        and Database management with MySQL.
+                    </li>
+                </ul>
+
+                <h3><i id="icon" class="bi bi-cpu"></i> <u>Testing + Other Technologies</u></h3>
+                <ul>
+                    <li class="text-line up-scrol">Manual Testing and Automation Testing.</li>
+                    <br>
+                    <li class="text-line up-scrol">Cloud : Proficient in cloud Technologies such as Firebase.</li>
+                </ul>
+            </article>
+            <!-- right-section -->
+            <div class="page3-right">
+                <!-- course -->
+                <div class="course">
+                    <!-- HTML per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/html.png" alt="html">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>HTML</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="70"></div>
+                                </div>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CSS per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/css.png" alt="css">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>CSS</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="70"></div>
+                                </div>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- JavaScript per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/javascript.png" alt="javascript">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>JavaScript</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="50"></div>
+                                </div>
+                                <span class="percent">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- java per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/java.png" alt="java">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>Java</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="70"></div>
+                                </div>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- python per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/python.png" alt="python">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>Python</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="50"></div>
+                                </div>
+                                <span class="percent">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mysql per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/mysql.png" alt="mysql">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>MySQL</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="70"></div>
+                                </div>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- testing per -->
+                    <div class="cards">
+                        <!-- image -->
+                        <div class="image">
+                            <img src="./../imgs/skills-img/testing.png" alt="testing">
+                        </div>
+                        <div class="percentage">
+                            <div>
+                                <label>Testing</label>
+                            </div>
+                            <div class="val">
+                                <div class="bar">
+                                    <div class="bar-fill" data-percent="70"></div>
+                                </div>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact page -->
+    <main class="contact" id="Contact">
+        <!-- title section -->
+        <header class="title-section">
+            <h3>Contact <span>Me</span></h3>
+        </header>
+        <!-- content -->
+        <section class="contact-container">
+            <!-- left-section -->
+            <div class="page4-left">
+                <img src="./../imgs/contact/contact_us.png" alt="contact SVG">
+            </div>
+            <!-- right-section -->
+            <article class="page4-right">
+                <!-- contact-entry details  -->
+                <div class="mail">
+                    <!-- contact me-title  -->
+                    <div class="heading">
+                        <h2>Mail <span>Box</span></h2>
+                        <div class="mail-bar"></div>
+                    </div>
+                    <!-- entry-details -->
+                    <form class="text-content" id="mailBox">
+                        <!-- .input-section -->
+                        <div>
+                            <label class="sticker" for="name">Name :</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label class="sticker" for="email">E-mail :</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label class="sticker" for="subject">Subject :</label><br>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div>
+                            <label class="sticker" for="message">Message :</label><br>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                    </form>
+                    <!-- botton -->
+                    <div class="btn">
+                        <button class="submit" type="submit" onclick="sendMail()">Submit</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Service page -->
+    <main class="service" id="Service">
+        <!-- title section -->
+        <header class="title-section">
+            <h3><span>My</span> Service</h3>
+        </header>
+        <!--card details section-->
+        <section class="card-section">
+            <!-- card html -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/html.png" alt="Html">
+                </div>
+                <div class="card-name">
+                    <h6>HTML</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                          Strong knowledge of HTML5 for building structured and semantic web pages.
+                        </li>
+                        <br>
+                        <li>
+                            Skilled in using semantic tags ("header, footer, article, and section" ect).
+                        </li>
+                        <br>
+                        <li>
+                            knowledge of multimedia integration ("audio, video and iframe").
+                        </li>
+                        <br>
+                        <li>
+                            Worked with inline and block-level elemets to create clean layouts.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card css -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/css.png" alt="css">
+                </div>
+                <div class="card-name">
+                    <h6>CSS</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                            CSS is used to control the presentation and design of html elemets on a web page.
+                        </li>
+                        <br>
+                        <li>
+                            Knowledge of different type of selector like "class selector, Id selector, Descendant selector, Child selector, and Adjacent Sibling selector" etc.
+                        </li>
+                        <br>
+                        <li>
+                            Strong knowledge of mobile responsive on web development.   
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card react -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/service-img/react img.png" alt="react">
+                </div>
+                <div class="card-name">
+                    <h6>React</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                            Proficient in building single-page applications using React.js.
+                        </li>
+                        <br>
+                        <li>
+                            Experience with React Hooks (useState, useEffect, useContext, useRef, etc).
+                        </li>
+                        <br>
+                        <li>
+                            Implemented animation and transitions using libraries like "Gsp with React".
+                        </li>
+                        <br>
+                        <li>
+                            Hands-on with React Router for implementing client-side routing and navigation.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card java -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/java.png" alt="java">
+                </div>
+                <div class="card-name">
+                    <h6>Java</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                            Proficient of Object-Oriention, data types & variables. 
+                        </li>
+                        <br>
+                        <li>
+                            Knowledge of "control statement, Execption Handling, and Multithreading" ect.
+                        </li>
+                        <br>
+                        <li>
+                            Basic knowledge of "Spring Boot, Hibernate, servlent, JDBC, and Junit".
+                        </li>
+                        <br>
+                        <li>
+                            Understanding garbage collection, heap, stack and memory optimization.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card javascript -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/javascript.png" alt="javascript">
+                </div>
+                <div class="card-name">
+                    <h6>JavaScript</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                            Strong Understanding of "variables, data types, operators, and scope".
+                        </li>
+                        <br>
+                        <li>
+                            knowledge of in "function, closures, callbacks, promises and async/await".
+                        </li>
+                        <br>
+                        <li>
+                            Expertise in DOM manipulation (querying, updating, and handaling elements dynamically).
+                        </li>
+                        <br>
+                        <li>
+                           Basic understanding of Object-Oriention. 
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card mysql -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/mysql.png" alt="mysql">
+                </div>
+                <div class="card-name">
+                    <h6>MySQL</h6>
+                </div>
+                <div class="card-discription">
+                    <p>
+                    <ul>
+                        <li>
+                            Proficient in SQL Commands ("DDL, DML, DCL and TCL").
+                        </li>
+                        <br>
+                        <li>
+                            Designing relational database schemas with proper normalization(1NF, 2NF, 3NF).
+                        </li>
+                        <br>
+                        <li>
+                            knowledge of constraints ("PRIMARY KEY, FOREIGN KEY, UNIQUE and NOT NULL").
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- card testing -->
+            <div class="card">
+                <div>
+                    <img class="photo" src="./../imgs/skills-img/testing.png" alt="testing">
+                </div>
+                <div class="card-name">
+                    <h6>MySQL</h6>
+                </div>
+                <div class="card-discription">
+                    <ul>
+                        <li>
+                            Strong understanding of software development life cycle(SDLC).
+                        </li>
+                        <br>
+                        <li>
+                            knowledge of different type of testing ("manual testing, automation testing").
+                        </li>
+                        <br>
+                        <li>
+                            writing and executing test case, test scenarios, and test plans.
+                        </li>
+                        <br>
+                        <li>
+                            knowledge of Selenium WebDriver or similar tools for UI automation.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer class="conclusion">
+            <h2 class="greetings">Thank <span>You</span></h2>
+            <h4 class="greetings">For Visiting My Prot<span>folio</span></h4>
+            <h5 class="greetings"> <span>&copy;</span> 2025</h5>
+        </footer>
+
+        <div class="last">
+            <h4><i class="ri-phone-line" style="color:green;"></i> 6361935438</h4>
+            <h4><i class="ri-mail-line" style="color: red;"></i> prateekkumarsn@gmail.com</h4>
+        </div>
+    </main>
+
+    <!-- animation for gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- animation for scrolling  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- cnd for typing and back -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- connecting js file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
