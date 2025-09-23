@@ -333,8 +333,8 @@ body {
 }
 
 .page2-right img {
-    width: 55%;
-    height: 80%;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     outline: 10px solid #31b444;
     object-fit: cover;   
